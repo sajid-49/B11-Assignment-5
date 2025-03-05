@@ -22,18 +22,44 @@
     />
 
     <style>
-      /* .poppins-regular {
+      .google-font {
         font-family: "Poppins", sans-serif;
         font-weight: 400;
         font-style: normal;
-      } */
+      }
     </style>
   </head>
-  <body>
+  <body class="google-font w-7xl mx-auto">
     <header>
-      <h1>Hello</h1>
+      <nav
+        class="flex justify-between items-center shadow-xl rounded-xl bg-[#FFFFFF] h-[100px] mt-[24px] mb-[20px] py-[18px] px-[24px]"
+      >
+        <!-- Left side -->
+        <div class="flex items-center gap-3">
+          <div><img src="./assets/logo.png" alt="" /></div>
+          <h1 class="text-4xl">Dev<span class="font-bold">Board</span></h1>
+        </div>
+
+        <!-- Right side -->
+        <div class="flex items-center gap-10">
+          <div class="flex items-center gap-2 bg-[#5373ca]">
+            <div><img src="./assets/checkbox.png" alt="" /></div>
+            <p class="font-bold text-3xl">23</p>
+          </div>
+
+          <button class="cursor-pointer">
+            <img src="./assets/theme-btn.png" alt="" />
+          </button>
+        </div>
+      </nav>
     </header>
 
-    <main></main>
+    <main>
+      <!-- Main section -->
+      <section></section>
+
+      <!-- Right side section -->
+      <aside></aside>
+    </main>
   </body>
 </html>
