@@ -29,253 +29,258 @@
       }
     </style>
   </head>
-  <body class="google-font w-7xl mx-auto">
-    <header>
-      <nav
-        class="flex justify-between items-center shadow-xl rounded-xl bg-[#FFFFFF] h-[100px] mt-[24px] mb-[20px] py-[18px] px-[24px]"
-      >
-        <!-- Left side -->
-        <div class="flex items-center gap-3">
-          <div><img src="./assets/logo.png" alt="" /></div>
-          <h1 class="text-4xl">Dev<span class="font-bold">Board</span></h1>
-        </div>
-
-        <!-- Right side -->
-        <div class="flex items-center gap-10">
-          <div class="flex items-center gap-3 bg-[#F4F7FF] rounded-full p-4">
-            <div><img src="./assets/checkbox.png" alt="" /></div>
-            <p id="main-number-2" class="font-bold text-3xl">23</p>
-          </div>
-
-          <button class="cursor-pointer">
-            <img src="./assets/theme-btn.png" alt="" />
-          </button>
-        </div>
-      </nav>
-    </header>
-
-    <main class="flex gap-6 mb-7">
-      <!-- Main section -->
-      <section class="bg-[#FFFFFF] rounded-2xl shadow-xl w-[1146px] p-6">
-        <!-- top section -->
-        <div class="flex gap-6 mb-[64px]">
-          <!-- left div -->
-          <div
-            class="flex gap-5 w-[250px] rounded-xl bg-[#F4F7FF] py-[25px] px-[20px]"
-          >
-            <div class="bg-[#FFFFFF] rounded-full p-[18px]">
-              <img src="./assets/checkbox.png" alt="" />
-            </div>
-            <div>
-              <p class="font-medium text-base">Task Assigned</p>
-              <p id="text-number" class="font-bold text-3xl">6</p>
-            </div>
-          </div>
-
-          <!-- center div -->
-          <div
-            class="w-[430px] rounded-xl flex justify-center items-center gap-5 bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] cursor-pointer"
-          >
-            <div><img src="./assets/board.png" alt="" /></div>
-            <div>
-              <p class="text-2xl font-medium text-[#FFFFFF]">
-                Discover Something <br />
-                New Today!
-              </p>
-            </div>
-          </div>
-
-          <!-- right div -->
-          <div
-            class="w-[250px] flex justify-center items-center gap-4 bg-[#F4F7FF] rounded-xl"
-          >
-            <div class="p-4 rounded-full bg-[#FFFFFF]">
-              <img src="./assets/calender.png" alt="" />
-            </div>
-            <div>
-              <p class="text-xl">
-                Wed ,<br />
-                <span class="font-bold">Mar 06 2025</span>
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Cards section -->
-        <div class="grid grid-cols-3 gap-9">
-          <!-- Card-1 -->
-          <div id="card_1" class="rounded-2xl p-6 bg-[#F4F7FF]">
-            <p class="py-2 px-4 rounded-lg bg-[#FFFFFF] inline-block">
-              ShopEase
-            </p>
-            <p class="mt-4 mb-4 font-medium text-2xl">
-              Fix Mobile Button Issue
-            </p>
-            <div class="p-4 bg-[#FFFFFF] rounded-lg mb-5">
-              <p class="opacity-50">
-                Debug using Chrome <br />
-                DevTools, check for overlapping
-              </p>
-            </div>
-            <div class="flex justify-between">
-              <p class="opacity-70 text-sm">
-                Deadline <br />
-                <span class="text-base font-bold">21 march 2025</span>
-              </p>
-              <button
-                class="btn text-[#FFFFFF] font-medium py-[10px] px-[20px] bg-[#3752FD] rounded-lg cursor-pointer"
-                id="card-btn1"
-              >
-                Completed
-              </button>
-            </div>
-          </div>
-
-          <!-- Card-2 -->
-          <div class="rounded-2xl p-6 bg-[#F4F7FF]">
-            <p class="py-2 px-4 rounded-lg bg-[#FFFFFF] inline-block">
-              CloudSync
-            </p>
-            <p class="mt-4 mb-4 font-medium text-2xl">Add Dark Mode</p>
-            <div class="p-4 bg-[#FFFFFF] rounded-lg mb-5">
-              <p class="opacity-50">
-                Debug using Chrome <br />
-                DevTools, check for overlapping
-              </p>
-            </div>
-            <div class="flex justify-between mt-14">
-              <p class="opacity-70 text-sm">
-                Deadline <br />
-                <span class="text-base font-bold">21 march 2025</span>
-              </p>
-              <button
-                class="btn text-[#FFFFFF] font-medium py-[10px] px-[20px] bg-[#3752FD] rounded-lg cursor-pointer"
-                id="card-btn2"
-              >
-                Completed
-              </button>
-            </div>
-          </div>
-
-          <!-- Card-3 -->
-          <div class="rounded-2xl p-6 bg-[#F4F7FF]">
-            <p class="py-2 px-4 rounded-lg bg-[#FFFFFF] inline-block">
-              SwiftPay
-            </p>
-            <p class="mt-4 mb-4 font-medium text-2xl">Optimize Home page</p>
-            <div class="p-4 bg-[#FFFFFF] rounded-lg mb-5">
-              <p class="opacity-50">
-                Debug using Chrome <br />
-                DevTools, check for overlapping
-              </p>
-            </div>
-            <div class="flex justify-between">
-              <p class="opacity-70 text-sm">
-                Deadline <br />
-                <span class="text-base font-bold">21 march 2025</span>
-              </p>
-              <button
-                class="btn text-[#FFFFFF] font-medium py-[10px] px-[20px] bg-[#3752FD] rounded-lg cursor-pointer"
-                id="card-btn3"
-              >
-                Completed
-              </button>
-            </div>
-          </div>
-
-          <!-- Card-4 -->
-          <div class="rounded-2xl p-6 bg-[#F4F7FF]">
-            <p class="py-2 px-4 rounded-lg bg-[#FFFFFF] inline-block">Meta</p>
-            <p class="mt-4 mb-4 font-medium text-2xl">Add new emoji 🤲</p>
-            <div class="p-4 bg-[#FFFFFF] rounded-lg mb-5">
-              <p class="opacity-50">
-                Debug using Chrome <br />
-                DevTools, check for overlapping
-              </p>
-            </div>
-            <div class="flex justify-between mt-14">
-              <p class="opacity-70 text-sm">
-                Deadline <br />
-                <span class="text-base font-bold">21 march 2025</span>
-              </p>
-              <button
-                class="btn text-[#FFFFFF] font-medium py-[10px] px-[20px] bg-[#3752FD] rounded-lg cursor-pointer"
-                id="card-btn4"
-              >
-                Completed
-              </button>
-            </div>
-          </div>
-
-          <!-- Card-5 -->
-          <div class="rounded-2xl p-6 bg-[#F4F7FF]">
-            <p class="py-2 px-4 rounded-lg bg-[#FFFFFF] inline-block">
-              Google LLC
-            </p>
-            <p class="mt-4 mb-4 font-medium text-2xl">Integrate OpenAI API</p>
-            <div class="p-4 bg-[#FFFFFF] rounded-lg mb-5">
-              <p class="opacity-50">
-                Debug using Chrome <br />
-                DevTools, check for overlapping
-              </p>
-            </div>
-            <div class="flex justify-between mt-14">
-              <p class="opacity-70 text-sm">
-                Deadline <br />
-                <span class="text-base font-bold">21 march 2025</span>
-              </p>
-              <button
-                class="btn text-[#FFFFFF] font-medium py-[10px] px-[20px] bg-[#3752FD] rounded-lg cursor-pointer"
-                id="card-btn5"
-              >
-                Completed
-              </button>
-            </div>
-          </div>
-
-          <!-- Card-6 -->
-          <div class="rounded-2xl p-6 bg-[#F4F7FF]">
-            <p class="py-2 px-4 rounded-lg bg-[#FFFFFF] inline-block">
-              Glassdoar
-            </p>
-            <p class="mt-4 mb-4 font-medium text-2xl">Improve Job searching</p>
-            <div class="p-4 bg-[#FFFFFF] rounded-lg mb-5">
-              <p class="opacity-50">
-                Debug using Chrome <br />
-                DevTools, check for overlapping
-              </p>
-            </div>
-            <div class="flex justify-between">
-              <p class="opacity-70 text-sm">
-                Deadline <br />
-                <span class="text-base font-bold">21 march 2025</span>
-              </p>
-              <button
-                class="btn text-[#FFFFFF] font-medium py-[10px] px-[20px] bg-[#3752FD] rounded-lg cursor-pointer"
-                id="card-btn6"
-              >
-                Completed
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Right side section -->
-      <aside
-        class="bg-[#FFFFFF] rounded-2xl shadow-xl w-[340px] flex flex-col items-center py-6 px-3"
-      >
-        <div class="flex gap-2 mb-4">
-          <div><img src="./assets/activity.png" alt="" /></div>
-          <h2>Activity Log</h2>
-        </div>
-        <button
-          class="py-[10px] px-[20px] bg-[#3752FD] text-[#FFFFFF] font-medium rounded-lg cursor-pointer"
+  <body>
+    <div class="google-font w-7xl mx-auto py-[24px]">
+      <header>
+        <nav
+          class="flex justify-between items-center shadow-xl rounded-xl bg-[#FFFFFF] h-[100px] mb-[20px] py-[18px] px-[24px]"
         >
-          Clear History
-        </button>
-      </aside>
-    </main>
+          <!-- Left side -->
+          <div class="flex items-center gap-3">
+            <div><img src="./assets/logo.png" alt="" /></div>
+            <h1 class="text-4xl">Dev<span class="font-bold">Board</span></h1>
+          </div>
+
+          <!-- Right side -->
+          <div class="flex items-center gap-10">
+            <div class="flex items-center gap-3 bg-[#F4F7FF] rounded-full p-4">
+              <div><img src="./assets/checkbox.png" alt="" /></div>
+              <p id="main-number-2" class="font-bold text-3xl">23</p>
+            </div>
+
+            <button id="btn-img" class="cursor-pointer">
+              <img src="./assets/theme-btn.png" alt="" />
+            </button>
+          </div>
+        </nav>
+      </header>
+
+      <main class="flex gap-6">
+        <!-- Main section -->
+        <section class="bg-[#FFFFFF] rounded-2xl shadow-xl w-[1146px] p-6">
+          <!-- top section -->
+          <div class="flex gap-6 mb-[64px]">
+            <!-- left div -->
+            <div
+              class="flex gap-5 w-[250px] rounded-xl bg-[#F4F7FF] py-[25px] px-[20px]"
+            >
+              <div class="bg-[#FFFFFF] rounded-full p-[18px]">
+                <img src="./assets/checkbox.png" alt="" />
+              </div>
+              <div>
+                <p class="font-medium text-base">Task Assigned</p>
+                <p id="text-number" class="font-bold text-3xl">6</p>
+              </div>
+            </div>
+
+            <!-- center div -->
+            <div
+              class="w-[430px] rounded-xl flex justify-center items-center gap-5 bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] cursor-pointer"
+            >
+              <div><img src="./assets/board.png" alt="" /></div>
+              <div>
+                <p class="text-2xl font-medium text-[#FFFFFF]">
+                  Discover Something <br />
+                  New Today!
+                </p>
+              </div>
+            </div>
+
+            <!-- right div -->
+            <div
+              class="w-[250px] flex justify-center items-center gap-4 bg-[#F4F7FF] rounded-xl"
+            >
+              <div class="p-4 rounded-full bg-[#FFFFFF]">
+                <img src="./assets/calender.png" alt="" />
+              </div>
+              <div>
+                <p class="text-xl">
+                  Wed ,<br />
+                  <span class="font-bold">Mar 06 2025</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards section -->
+          <div id="cards" class="grid grid-cols-3 gap-9">
+            <!-- Card-1 -->
+            <div id="card_1" class="rounded-2xl p-6 bg-[#F4F7FF]">
+              <p class="py-2 px-4 rounded-lg bg-[#FFFFFF] inline-block">
+                ShopEase
+              </p>
+              <p class="mt-4 mb-4 font-medium text-2xl">
+                Fix Mobile Button Issue
+              </p>
+              <div class="p-4 bg-[#FFFFFF] rounded-lg mb-5">
+                <p class="opacity-50">
+                  Debug using Chrome <br />
+                  DevTools, check for overlapping
+                </p>
+              </div>
+              <div class="flex justify-between">
+                <p class="opacity-70 text-sm">
+                  Deadline <br />
+                  <span class="text-base font-bold">21 march 2025</span>
+                </p>
+                <button
+                  class="btn text-[#FFFFFF] font-medium py-[10px] px-[20px] bg-[#3752FD] rounded-lg cursor-pointer"
+                  id="card-btn1"
+                >
+                  Completed
+                </button>
+              </div>
+            </div>
+
+            <!-- Card-2 -->
+            <div class="rounded-2xl p-6 bg-[#F4F7FF]">
+              <p class="py-2 px-4 rounded-lg bg-[#FFFFFF] inline-block">
+                CloudSync
+              </p>
+              <p class="mt-4 mb-4 font-medium text-2xl">Add Dark Mode</p>
+              <div class="p-4 bg-[#FFFFFF] rounded-lg mb-5">
+                <p class="opacity-50">
+                  Debug using Chrome <br />
+                  DevTools, check for overlapping
+                </p>
+              </div>
+              <div class="flex justify-between mt-14">
+                <p class="opacity-70 text-sm">
+                  Deadline <br />
+                  <span class="text-base font-bold">21 march 2025</span>
+                </p>
+                <button
+                  class="btn text-[#FFFFFF] font-medium py-[10px] px-[20px] bg-[#3752FD] rounded-lg cursor-pointer"
+                  id="card-btn2"
+                >
+                  Completed
+                </button>
+              </div>
+            </div>
+
+            <!-- Card-3 -->
+            <div class="rounded-2xl p-6 bg-[#F4F7FF]">
+              <p class="py-2 px-4 rounded-lg bg-[#FFFFFF] inline-block">
+                SwiftPay
+              </p>
+              <p class="mt-4 mb-4 font-medium text-2xl">Optimize Home page</p>
+              <div class="p-4 bg-[#FFFFFF] rounded-lg mb-5">
+                <p class="opacity-50">
+                  Debug using Chrome <br />
+                  DevTools, check for overlapping
+                </p>
+              </div>
+              <div class="flex justify-between">
+                <p class="opacity-70 text-sm">
+                  Deadline <br />
+                  <span class="text-base font-bold">21 march 2025</span>
+                </p>
+                <button
+                  class="btn text-[#FFFFFF] font-medium py-[10px] px-[20px] bg-[#3752FD] rounded-lg cursor-pointer"
+                  id="card-btn3"
+                >
+                  Completed
+                </button>
+              </div>
+            </div>
+
+            <!-- Card-4 -->
+            <div class="rounded-2xl p-6 bg-[#F4F7FF]">
+              <p class="py-2 px-4 rounded-lg bg-[#FFFFFF] inline-block">Meta</p>
+              <p class="mt-4 mb-4 font-medium text-2xl">Add new emoji 🤲</p>
+              <div class="p-4 bg-[#FFFFFF] rounded-lg mb-5">
+                <p class="opacity-50">
+                  Debug using Chrome <br />
+                  DevTools, check for overlapping
+                </p>
+              </div>
+              <div class="flex justify-between mt-14">
+                <p class="opacity-70 text-sm">
+                  Deadline <br />
+                  <span class="text-base font-bold">21 march 2025</span>
+                </p>
+                <button
+                  class="btn text-[#FFFFFF] font-medium py-[10px] px-[20px] bg-[#3752FD] rounded-lg cursor-pointer"
+                  id="card-btn4"
+                >
+                  Completed
+                </button>
+              </div>
+            </div>
+
+            <!-- Card-5 -->
+            <div class="rounded-2xl p-6 bg-[#F4F7FF]">
+              <p class="py-2 px-4 rounded-lg bg-[#FFFFFF] inline-block">
+                Google LLC
+              </p>
+              <p class="mt-4 mb-4 font-medium text-2xl">Integrate OpenAI API</p>
+              <div class="p-4 bg-[#FFFFFF] rounded-lg mb-5">
+                <p class="opacity-50">
+                  Debug using Chrome <br />
+                  DevTools, check for overlapping
+                </p>
+              </div>
+              <div class="flex justify-between mt-14">
+                <p class="opacity-70 text-sm">
+                  Deadline <br />
+                  <span class="text-base font-bold">21 march 2025</span>
+                </p>
+                <button
+                  class="btn text-[#FFFFFF] font-medium py-[10px] px-[20px] bg-[#3752FD] rounded-lg cursor-pointer"
+                  id="card-btn5"
+                >
+                  Completed
+                </button>
+              </div>
+            </div>
+
+            <!-- Card-6 -->
+            <div class="rounded-2xl p-6 bg-[#F4F7FF]">
+              <p class="py-2 px-4 rounded-lg bg-[#FFFFFF] inline-block">
+                Glassdoar
+              </p>
+              <p class="mt-4 mb-4 font-medium text-2xl">
+                Improve Job searching
+              </p>
+              <div class="p-4 bg-[#FFFFFF] rounded-lg mb-5">
+                <p class="opacity-50">
+                  Debug using Chrome <br />
+                  DevTools, check for overlapping
+                </p>
+              </div>
+              <div class="flex justify-between">
+                <p class="opacity-70 text-sm">
+                  Deadline <br />
+                  <span class="text-base font-bold">21 march 2025</span>
+                </p>
+                <button
+                  class="btn text-[#FFFFFF] font-medium py-[10px] px-[20px] bg-[#3752FD] rounded-lg cursor-pointer"
+                  id="card-btn6"
+                >
+                  Completed
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Right side section -->
+        <aside
+          class="bg-[#FFFFFF] rounded-2xl shadow-xl w-[340px] flex flex-col items-center py-6 px-3"
+        >
+          <div class="flex gap-2 mb-4">
+            <div><img src="./assets/activity.png" alt="" /></div>
+            <h2>Activity Log</h2>
+          </div>
+          <button
+            class="py-[10px] px-[20px] bg-[#3752FD] text-[#FFFFFF] font-medium rounded-lg cursor-pointer"
+          >
+            Clear History
+          </button>
+          <div id="aside-text"></div>
+        </aside>
+      </main>
+    </div>
 
     <script src="./scripts/script.js"></script>
     <script src="./scripts/utility.js"></script>
