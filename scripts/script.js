@@ -7,6 +7,11 @@ btnImg.addEventListener("click", function () {
 document.getElementById("aside-btn").addEventListener("click", function () {
   document.getElementById("aside-text").innerHTML = " ";
 });
+
+document.getElementById("go-to").addEventListener("click", function () {
+  window.location.href = "./blog.html";
+});
+
 // btn-1
 document.getElementById("card-btn1").addEventListener("click", function () {
   alert("Board updated successfully.");
